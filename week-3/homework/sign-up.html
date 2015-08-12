@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ACME Anvil Corporation - Sign Up</title>
+
+     <link rel="stylesheet" href="css/styles.css" media="screen" >
+  </head>
+  <body>
+    <header>
+        <a href="index.html">
+          <img src="http://cloud.avandamiri.com/image/423B1n2p2v0U/acme-corp.jpg" alt="Acme Anvil Corporation"
+        width="200px"/>
+        </a>
+        <nav>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li class="button-home"><a href="sign-up.html">Sign Up</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Sign Up</h1>
+        <form id="sign-up-form" method="post">
+          <table border="0" cellspacing="0" cellpadding="10">
+            <tbody>
+              <div class="signup-firstname">
+                <tr>
+                  <td><label for="signup-firstname">First Name</label>
+                  </td>
+                  <td><input class="input-field input-field-first" type="text" name="first_name" placeholder="Susan">
+                  </td>
+                </tr>
+              </div>
+              <tr>
+                <td><label for="signup-lastname">Last Name</label>
+                </td>
+                <td><input class="input-field" type="text" name="last_name" placeholder="Sarandon">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="signup-email">Email</label>
+                </td>
+                <td><input class="input-field" type="text" name="email" placeholder="susan@sarandon.com">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="signup-password">Password</label>
+                </td>
+                <td><input class="input-field" type="text" name="password" placeholder="">
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <label for="signup-password">How did you hear about us?</label>
+                  <select name="hear" placeholder="How did you hear about us?">
+                    <option>Pick one...</option>
+                    <option value="2">Or two</option>
+                    <option value="3">Or three</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="checkbox" name="password" placeholder="">
+                  <label for="signup-password">Agree to our terms of service</label>
+              </td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="submit" name="password" placeholder="Sign Up">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+    </main>
+    <footer>
+      <hr>
+      <p>
+        Copyright, 2015
+      </p>
+    </footer>
+  </body>
+</html>
